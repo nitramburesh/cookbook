@@ -1,0 +1,13 @@
+.form {
+  font-family: Courier, monospace;
+  outline: none;
+  border: 0.5px grey solid;
+  box-shadow: 0 5px 10px rgb(120, 120, 120);
+  padding: 20px;
+}
+.form:focus {
+  background-color: rgb(249, 249, 249);
+}
+.form::placeholder {
+  font-family: Courier, monospace;
+}

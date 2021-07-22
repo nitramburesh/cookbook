@@ -1,0 +1,108 @@
+.container {
+  display: grid;
+  padding: 30px;
+}
+.title {
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 3vw;
+  font-size: 3vw;
+}
+.label {
+  text-transform: uppercase;
+  font-family: Courier, monospace;
+}
+.input {
+  margin-bottom: 30px;
+}
+.form {
+  font-family: Courier, monospace;
+}
+.form:focus {
+  background-color: rgb(249, 249, 249);
+  outline: none;
+  border: 0.5px grey solid;
+  box-shadow: 0 5px 10px rgb(120, 120, 120);
+}
+.form::placeholder {
+  font-family: Courier, monospace;
+}
+.listGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.listGroupItem {
+  text-transform: uppercase;
+  font-family: Courier, monospace;
+  margin: 10px 0;
+}
+.buttonList {
+  border: none;
+  background-color: #f49394;
+  margin: 10px 0;
+  transition: 0.3s ease-in-out;
+  font-family: Courier, monospace;
+}
+.buttonList:hover {
+  border: none;
+  background-color: #d01110;
+  margin: 10px 0;
+  transition: 0.3s ease-in-out;
+}
+.button {
+  background-color: #6c84bb;
+  border-color: #6c84bb;
+  transition: 0.3s ease-in-out;
+}
+.button:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+  background-color: #3b5ba6;
+  border-color: #3b5ba6;
+}
+.buttonDiscard {
+  border: none;
+  background-color: #f49394;
+  width: 30%;
+  color: white;
+  padding: 15px 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  font-size: 1vw;
+  font-family: Courier, monospace;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.buttonDiscard:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+  background-color: #d01110;
+}
+
+.buttonSave {
+  border: none;
+  background-color: #6c84bb;
+  width: 30%;
+  color: white;
+  padding: 15px 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  font-size: 1vw;
+  font-family: Courier, monospace;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.buttonSave:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+  background-color: #3b5ba6;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}

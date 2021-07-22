@@ -1,0 +1,30 @@
+.form {
+  border: 0;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2vw;
+  outline: black;
+  border: 1px solid black;
+}
+
+.form:focus {
+  transition: all 0.2s ease-in-out;
+  font-family: 'Courier New', Courier, monospace;
+  outline: none;
+  border: 1px solid black;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+}
+.form::placeholder {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 0.8vw;
+}

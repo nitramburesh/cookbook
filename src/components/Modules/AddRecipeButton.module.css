@@ -1,0 +1,20 @@
+.btn {
+  border: none;
+
+  background-color:#6c84bb;
+  width: 100%;
+  color: white;
+  padding: 15px 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  font-size: 1vw;
+  font-family: Courier, monospace;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  transition: 0.3s ease-in-out;
+  color: white;
+  background-color:#3b5ba6;
+}

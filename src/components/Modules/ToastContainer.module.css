@@ -1,0 +1,9 @@
+.toast {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: #c9d8e0;
+  color: black;
+  font-size: x-large;
+  border: black 1px solid;
+}
+

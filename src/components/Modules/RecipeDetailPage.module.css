@@ -1,0 +1,72 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.title {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 4vw 0;
+  vertical-align: center;
+}
+.leftSide {
+  margin-left: 2vw;
+  font-size: 1.1vw;
+}
+.rightSide {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-size: 1.1vw;
+}
+
+.buttons {
+  display: grid;
+
+}
+
+.p {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 1.3vw;
+  margin-top: 2vw;
+}
+strong {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.ingredName{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: Courier, monospace;
+}
+.h2 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  font-size: 2vw;
+  text-transform: uppercase;
+
+}
+.directions {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 1.1vw;
+}
+
+li {
+  font-family: 'Courier New', Courier, monospace;
+  list-style-type: none;
+}
+

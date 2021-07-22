@@ -1,0 +1,41 @@
+.div{
+  margin-top: 5%;
+  display: grid;
+  justify-items: center;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(71, 71, 71);
+  width: 100%;
+  color: white;
+  padding: 15px 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  font-size: 1vw;
+  font-family: Courier, monospace;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+
+}
+.btn:hover {
+  transition: 0.3s ease-in-out;
+  color: rgb(71, 71, 71);
+  background-color: white;
+  outline: black;
+  border: 1px black solid;
+}
+
+.h1 {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 5vw;
+}
+.h4 {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 1.5vw;
+}

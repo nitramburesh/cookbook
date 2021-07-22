@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #c9d8e0;
+  padding: 5vw;
+  height: 10vh;
+  font-family: 'Courier New', Courier, monospace;
+display: flex;
+justify-content: center;
+}
+
+.logo {
+  font-size: 6vw;
+
+}
+.heroLogo {
+  max-height: 8vw;
+  margin-right: 3vw;
+
+}
